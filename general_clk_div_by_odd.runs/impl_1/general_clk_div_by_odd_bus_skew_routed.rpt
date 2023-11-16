@@ -1,0 +1,15 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu May 18 15:05:43 2023
+| Host         : LAPTOP-KB4NR7PR running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file general_clk_div_by_odd_bus_skew_routed.rpt -pb general_clk_div_by_odd_bus_skew_routed.pb -rpx general_clk_div_by_odd_bus_skew_routed.rpx
+| Design       : general_clk_div_by_odd
+| Device       : 7k70t-fbv676
+| Speed File   : -1  PRODUCTION 1.12 2017-02-17
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
