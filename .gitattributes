@@ -2,3 +2,6 @@
 * text=auto
 *.js linguist-detectable=false
 *.v linguist-detectable=true
+*.tcl linguist-detectable=false
+*.c linguist-detectable=false
+*.sh linguist-detectable=false 
