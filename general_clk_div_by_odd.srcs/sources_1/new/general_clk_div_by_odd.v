@@ -42,7 +42,7 @@ always@(posedge clk_in or negedge rst)
         end
 		else if(count == DIV_BY-1)	//Count to N-1. Ex: Use 4 to divide by 5
 			begin
-				count <= 4'b0000;
+				count <= {WIDTH{1'b0}};
 			end	
 		else
 			begin
@@ -58,7 +58,7 @@ always@(posedge clk_in or negedge rst)
 //		else
 //			A1 = 0;
 //	end
-assign A1 = (count == 4'b0000)? 1'b1 :1'b0;
+assign A1 = (count == {WIDTH{1'b0})? 1'b1 :1'b0;
 //Sets B to high for one clock cycle after counter is (N+1)/2
 //always@(*)
 //	begin
